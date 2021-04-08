@@ -6,7 +6,7 @@
 
 <a name="download"></a>
 ## Download
-Clone / download the repository, navigate to Appy/Assets/WindowsBuild and run Appy.exe.
+Clone / download the repository, navigate to Appy/WindowsBuild and run Appy.exe.
 
 <a name="overview"></a>
 ## Overview
