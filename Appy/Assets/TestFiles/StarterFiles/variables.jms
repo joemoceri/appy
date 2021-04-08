@@ -1,0 +1,36 @@
+# Variables are declared like this
+
+val = 5
+print("The variable val is: " + val)
+
+# You can store integers like 5 inside of them
+# And also floating point values like 5.125
+
+val = 5.125
+print("Now the variable val is: " + val)
+
+# Variables can store integers, floats, strings, bools
+
+val = "A string inside"
+print("Val becomes: " + val)
+
+# You can also use variables in arithmetic expressions
+
+val = 5
+val = val + 3
+print("Val is now: " + val)
+
+# And also using shorthand operators
+
+val++
+print("Val is now: " + val)
+val++
+val/=5
+print("Val is now: " + val)
+
+# Full support for mathematical arithmetic for integer and float expressions
+
+val = 5 * 2 + (val - 1) * (6.5/4)
+print("Val is now: " + val)
+
+# End of variable demonstration

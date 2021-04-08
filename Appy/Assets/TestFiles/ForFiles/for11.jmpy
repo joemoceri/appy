@@ -1,0 +1,9 @@
+def main():
+	for i in range(0, 5, 1):
+		print("Beginning loop")
+		print("i is: " + i)
+		for j in range(0, 3, 1):
+			print("j is: " + j)
+		print("After inside loop")
+		
+main()

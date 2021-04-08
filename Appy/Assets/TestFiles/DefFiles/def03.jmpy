@@ -1,0 +1,16 @@
+
+def add(num1, num2):
+	result = num1 + num2
+	result = result * 2
+	result = result - num2
+	
+print(InGlobalScope)
+
+num1 = 4
+print(num1*1)
+num2 = 3
+add(num1 - 2, num2 + 2)
+
+result = result * 2
+
+print(AfterMainCall)

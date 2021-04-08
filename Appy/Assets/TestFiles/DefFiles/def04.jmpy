@@ -1,0 +1,9 @@
+
+def add(num1, num2):
+	result = num1 + num2
+	if(num1 < 5):
+		add(num1 + 1, num2 + 1)
+
+num1 = 1
+num2 = 2
+add(num1, num2)

@@ -1,0 +1,18 @@
+def main(a, b, c, d):
+def main ( a , b , 
+def main(b):
+
+def main():
+	num = 0
+	for i in range(0, 4, 1):
+		num = num + 1
+		if(num % 2 == 0):
+			print(WasModTwo)
+
+	print(EndOfMain)
+	
+print(BeforeInGlobal)
+
+main()
+	
+print(AfterInGlobal)

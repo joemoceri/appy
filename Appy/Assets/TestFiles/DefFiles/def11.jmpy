@@ -1,0 +1,43 @@
+
+def add(num1, num2):
+	result = num1 + num2
+	result2 = subtract(num1 + 1, num2 + 1)
+	return result2
+	print(AfterInAdd)
+	print(NeverShouldPrintAtAdd)
+	print(result * 1)
+	
+def subtract(num1, num2):
+	result = num1 - num2
+	result2 = multiply(num1 + 1, num2 + 2)
+	return result2
+	
+	print(AfterInSubtract)
+	print(NeverShouldPrintAtSubtract)
+	print(result * 1)
+	
+def multiply(num1, num2):
+	result = num1 * num2
+	result2 =  modulus(num1 + 1, num2 + 1)
+	return result2
+	
+	print(AfterInMultiply)
+	print(NeverShouldPrintAtMultiply)
+	print(result * 1)
+	
+def modulus(num1, num2):
+	result = num1 % num2
+	return result
+	print(AfterInModulus)
+	
+	print(result * 1)
+	print(NeverShouldPrintAtModulus)
+	result2 = result
+	
+num1 = 5
+num2 = 3
+
+result = add(num1, num2)
+
+print(resultIs)
+print(result)

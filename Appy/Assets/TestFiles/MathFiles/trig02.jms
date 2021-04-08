@@ -1,0 +1,38 @@
+PI = 3.14159265359
+Deg2Rad = PI / 180.0
+Rad2Deg = 180.0 / PI
+
+def ReduceAngle(radians):
+	angle = radians * Rad2Deg
+	result = (angle % 360) * Deg2Rad
+	return result
+
+def sin(radians):
+	r = ReduceAngle(radians)
+	result = r
+	start = 3
+	for i in range(0, 10, 1):
+		
+		p = r
+		for j in range(1, start, 1):
+			p *= r
+		
+		f = start	
+		for j in range(start - 1, 1, -1):
+			f *= j
+		
+		print("f is: " + f)
+		n = p / f
+		if(i % 2 == 0):
+			result += n * -1
+		else:
+			result += n
+		start += 2
+		
+	return result
+	
+rad = 3
+
+result = sin(rad)
+
+print("The sin of " + rad + " in radians is: " + result)

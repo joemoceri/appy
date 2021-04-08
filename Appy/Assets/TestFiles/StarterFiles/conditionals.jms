@@ -1,0 +1,43 @@
+# Conditionals follow the syntax of Python
+if(5 > 3):
+	print("5 is greater than 3")
+
+# The expressions need to be tab indented 
+# (equivalent of 4 spaces) in order to be recognized.
+
+if(5 > 6):
+	print("wrong!")
+elif(5 > 2):
+	print("right!")
+
+# It will go through each conditional branch until it finds
+# one that is boolean true
+
+elif(5 > 3):
+	print("will not work")
+	
+else:
+	print("will also not work")
+	
+# Elif needs an if to start, and else needs either to follow from
+
+# Conditionals can also be wrapped inside each other
+if(5 > 3):
+	if(3 > 2):
+		if(1 > 0):
+			print("right!")
+		else:
+			print("will not reach")
+			
+if(5 > 3):
+	if(2 > 3):
+		print("wrong")
+	else:
+		print("right")
+	
+	print("First one will continue until")
+	print("it finds a lesser tab indent.")
+	print("")
+
+print("After the statements")
+print("End of conditional demonstration")

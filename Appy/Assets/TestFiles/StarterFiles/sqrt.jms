@@ -1,0 +1,8 @@
+
+choice = 5.0 # choice must have a decimal place, to indicate float math
+
+result = choice
+for i in  range(0, 6, 1):
+	result = 0.5 * (result + (choice / result))
+
+print("The square root of " + choice + " is " + result)

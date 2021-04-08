@@ -1,0 +1,23 @@
+# JMScript is a scripting language built for the Unity player environment
+# It is python-inspired, deriving most of its syntax from the language
+# JMScript comes with a built-in print function
+# Primitive types:
+# JMInt, JMFloat, JMBool, JMString 
+# Currently supported features:
+# Built-in Function calls
+# Loops (for)
+# Conditionals (if, elif, else)
+# Variable declarations
+# Boolean, string and mathematical arithmetic
+# Comments (Start a comment with # sign)
+
+# In this area is where you can create scripts to run. Use the print(string str) 
+# function to display answers in the console.
+
+# Anytime you change the name of a script, a new one will be saved. You can access
+# the list of all scripts using the button in the top left corner of this window.
+
+# Note: JMScript is in a very, very early alpha stage, and therefore is unstable.
+# The scripts written here are for demonstrative purposes. You can write your own
+# scripts, be cautious that they may not work. Use the prewritten scripts as
+# reference.

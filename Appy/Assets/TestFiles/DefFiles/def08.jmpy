@@ -1,0 +1,11 @@
+def main(num6, num7):
+	num1 = 1 + 1
+	num2 = 2 + 2
+	return
+	num3 = 3 + 3
+	num4 = 4 + 4
+	num5 = 5 + 5
+	
+main(5, 4)
+
+print(AfterMainCall)

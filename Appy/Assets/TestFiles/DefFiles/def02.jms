@@ -1,0 +1,14 @@
+def main():
+	print("Start Of Main")
+	num = 0
+	for i in range(0, 4, 1):
+		num = num + 1
+		if(num % 2 == 0):
+			print("Was Mod Two")
+
+	print("End Of Main")
+	
+print("In Global Scope")
+
+main()
+print("After Main Call")

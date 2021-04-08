@@ -1,0 +1,21 @@
+def secondary(num):
+	for j in range(0, 3, 1):
+		print("j:2: is: " + j)
+	return num + 1
+		
+#lol comment
+def main(): #lol comment
+	for i in range(0, 5, 1):
+		print("Beginning loop")
+		print("i is: " + i)
+		result = secondary(i)
+		print("Result is: " + result)
+		print("After inside loop")
+		
+main()
+print("After main 1")
+print("After main 2")
+print("After main 3")
+print("After main 4")
+print("After main 5")
+print("After main 6")

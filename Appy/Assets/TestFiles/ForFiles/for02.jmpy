@@ -1,0 +1,14 @@
+for i in range(0, 5, 1):
+	print(InsideIteration)
+	print(alsoInside)
+	print(Inside3)
+	for j in range(0, 5, 1):
+		print(InternalIteration)
+		print(AlsoInternalIteration)
+	print(Inside4)
+
+print(IsAfter)
+
+for j in range(5, 15, 5):
+	print(Inside5)
+	print(Inside6)

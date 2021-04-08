@@ -1,0 +1,47 @@
+PI = 3.14159265359
+Deg2Rad = PI / 180.0
+Rad2Deg = 180.0 / PI
+
+def factorial(num):
+	result = num
+	for k in range(num - 1, 1, -1):
+		print("fact k is: " + k)
+		result *=  k
+	
+	return result
+
+def pow(base, exponent):
+	result = base
+	for j in range(1, exponent, 1):
+		print("pow j is: " + j)
+		result *= base
+	
+	return result
+
+def ReduceAngle(radians):
+	angle = radians * Rad2Deg
+	result = (angle % 360) * Deg2Rad
+	return result
+
+radians = 3	
+
+r = ReduceAngle(radians)
+result = r
+start = 3
+for i in range(0, 10, 1):
+	print("i is: " + i)
+	p = pow(r, start)
+	print("p is: " + p)
+	f = factorial(start)
+	print("f is: " + f)
+	n = p / f
+	if(i % 2 == 0):
+		result += n * -1
+	else:
+		result += n
+	start += 2
+	
+	
+
+
+print("The sin of " + rad + " in radians is: " + result)

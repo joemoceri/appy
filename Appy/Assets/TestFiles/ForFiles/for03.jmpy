@@ -1,0 +1,34 @@
+for i in range(0, 5, 1):
+	print(InsideIteration)
+	print(alsoInside)
+	print(Inside3)
+	if(5>4):
+		print(1IsTrue)
+		if(5>4):
+			print(11isTrue)
+		elif(5>5):
+			print(12isTrue)
+		else:
+			print(13isTrue)
+	elif(5>5):
+		print(2IsTrue)
+	elif(5>5):
+		print(3IsTrue)
+	else:
+		print(4IsTrue)
+		
+	if(5>1):
+		print(5IsTrue)
+	elif(5>2):
+		print(6IsTrue)
+	elif(5>3):
+		print(7IsTrue)
+	else:
+		print(8IsTrue)
+	
+	
+print(IsAfter)
+
+for j in range(5, 15, 5):
+	print(Inside5)
+	print(Inside6)

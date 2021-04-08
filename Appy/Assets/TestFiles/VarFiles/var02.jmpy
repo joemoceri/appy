@@ -1,0 +1,6 @@
+num = 0
+num++
+num++
+num++
+num--
+print(num)

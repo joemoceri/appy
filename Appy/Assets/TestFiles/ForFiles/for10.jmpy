@@ -1,0 +1,19 @@
+def lol():
+	print("lol")
+
+for i in range(0, 5, 1):
+	print("Outer Statement")
+	print("i is: " + i)
+	for j in range(0, 3, 1):
+		print("Inside Statement")
+		print("j is: " + j)
+	print("After inside loop")
+	lol()
+
+print("After for 1")
+print("After for 2")
+print("After for 3")
+print("After for 4")
+print("After for 5")
+print("After for 6")
+print("After for 7")

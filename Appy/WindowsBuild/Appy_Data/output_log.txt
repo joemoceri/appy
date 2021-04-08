@@ -1,0 +1,21 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\jmoce\source\repos\appy\Appy\WindowsBuild\Appy_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\jmoce\source\repos\appy\Appy\WindowsBuild\Appy_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\jmoce\source\repos\appy\Appy\WindowsBuild\Appy_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\jmoce\source\repos\appy\Appy\WindowsBuild\Appy_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.094 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+JMQueue: JM.Queue.JMQueue
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Platform assembly: C:\Users\jmoce\source\repos\appy\Appy\WindowsBuild\Appy_Data\Managed\System.dll (this message is harmless)

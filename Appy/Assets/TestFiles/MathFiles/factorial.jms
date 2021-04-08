@@ -1,0 +1,15 @@
+# Note: Function calls are not stable. This is for demonstrative
+# purposes only.
+
+def factorial(num):
+	result = num
+	for i in range(num - 1, 1, -1):
+		result *=  i
+	
+	return result
+
+choice = 10
+	
+result = factorial(choice)
+
+print("Factorial of " + choice + " is: " + result)

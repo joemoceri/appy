@@ -1,0 +1,17 @@
+# As you may have seen by now, JMScript comes with a 
+# built in function called print(string str)
+
+print("This is a function call for print")
+
+# You can use it to display items to the console
+
+num = 5
+
+print(num)
+print("Num is: " + num)
+num *= 2
+print("Now num is: " + num)
+num -= 3.250
+print("Finally num is: " + num)
+
+# End of print demonstration

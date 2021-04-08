@@ -1,0 +1,26 @@
+# Loops are supported to a lesser extent
+# And only for For loops
+# They require an iterator, and a range function
+# with three parameters 
+
+for i in range(0, 10, 1):
+	print("i is: " + i)
+	
+# Inside loops, you can use conditionals,
+# variable declarations, other loops, whatever
+# you can do outside of them you can do inside.
+
+for i in range(0, 10, 1):
+	if(i % 2 == 0):
+		print("i mod 2 for: " + i)
+	elif(i % 3 == 0):
+		print("i mod 3 for: " + i)
+	
+	print("For each iteration this will show")
+	
+	for j in range(0, 3, 1):
+		print("j is: " + j)
+
+# After the loop, this will print
+
+print("End of loop demonstration")

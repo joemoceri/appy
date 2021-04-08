@@ -1,0 +1,16 @@
+# Note: Function calls are not stable. This is for demonstrative
+# purposes only.
+
+def pow(base, exponent):
+	result = base
+	for i in range(1, exponent, 1):
+		result *= base
+	
+	return result
+	
+b = 3
+e = 6
+
+ans = pow(b, e)
+
+print(b + " raised to " + e + " is: " + ans)

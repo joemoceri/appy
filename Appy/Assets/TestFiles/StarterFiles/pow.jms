@@ -1,0 +1,9 @@
+
+base = 3
+exponent = 6
+
+result = base
+for i in range(1, exponent, 1):
+	result *= base	
+
+print(base + " raised to " + exponent + " is: " + result)

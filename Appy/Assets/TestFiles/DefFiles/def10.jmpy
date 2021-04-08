@@ -1,0 +1,21 @@
+
+def add(num1, num2):
+	result = num1 + num2
+	subtract(num1, num2)
+	return
+	print(AfterInAdd)
+	print(NeverShouldPrintAtAdd)
+	print(result * 1)
+
+def subtract(num1, num2):
+	result = num1 - num2
+	return
+	print(AfterInSubtract)
+	print(NeverShouldPrintAtAdd)
+	print(result * 1)
+	
+num1 = 5
+num2 = 3
+
+
+add(num1, num2)
