@@ -1,11 +1,16 @@
 # appy
 > appy is a demo for a prototype scripting language interpreter for Unity that will parse given .jmpy files that have syntax similar to Python.
 > 
+* [Download](#download)
 * [Overview](#overview)
+
+<a name="download"></a>
+## Download
+Clone / download the repository, navigate to Appy/Assets/WindowsBuild and run Appy.exe.
 
 <a name="overview"></a>
 ## Overview
-Appy is built using Unity 4 to to demonstrate a prototype scriping language for the Unity environment called JMScript, with most of it's syntax derived from python. It looks like this:
+Appy is built using Unity 4 to demonstrate a prototype scriping language for the Unity environment called JMScript, with most of it's syntax derived from python. It looks like this:
 
 ![image](https://user-images.githubusercontent.com/7356219/114099591-e70f4580-9877-11eb-9f94-dd8d25b2e98c.png)
 
